@@ -26,6 +26,11 @@ button:hover {
     border-bottom: solid 9px #cc7fb5;
     border-right: solid 9px #e5b6d5;
     border-left: solid 9px #e5b6d5;
+    cursor: pointer;
+}
+
+button:focus {
+  outline: none;
 }
 
 @media (max-width: 450px) {
@@ -34,7 +39,7 @@ button:hover {
     margin: auto;
     margin-top: 40px;
   }
-  #randomeColorButton {
+  #randomColorButton {
     margin-top: 100px;
     padding: 20px 0 20px 0;
   }
@@ -43,7 +48,6 @@ button:hover {
     font-size: 20px;
   }
   body {
-    display: initial;
+    display: block;
   }
-
 }
